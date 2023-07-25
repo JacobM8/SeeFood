@@ -50,7 +50,13 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate, UINavig
                 fatalError("Model failed to process image")
             }
             
-            print ("Results: \(results)")
+            if let firstResult = results.first {
+                if firstResult.identifier.contains("hotdog") {
+                    self.navigationItem.title = "Hotdog! ;)"
+                } else {
+                    self.navigationItem.title = "Not Hotdog :("
+                }
+            }
         }
         
         // Specify this image is the one we want to classify using our maching learning model
