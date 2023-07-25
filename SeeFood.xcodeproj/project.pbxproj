@@ -13,6 +13,7 @@
 		8A174E7B2A703747004B7335 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A174E792A703747004B7335 /* Main.storyboard */; };
 		8A174E7D2A703749004B7335 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A174E7C2A703749004B7335 /* Assets.xcassets */; };
 		8A174E802A703749004B7335 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A174E7E2A703749004B7335 /* LaunchScreen.storyboard */; };
+		8A174E882A7037E4004B7335 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 8A174E872A7037E3004B7335 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8A174E7C2A703749004B7335 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A174E7F2A703749004B7335 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8A174E812A703749004B7335 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A174E872A7037E3004B7335 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +64,7 @@
 				8A174E792A703747004B7335 /* Main.storyboard */,
 				8A174E7C2A703749004B7335 /* Assets.xcassets */,
 				8A174E7E2A703749004B7335 /* LaunchScreen.storyboard */,
+				8A174E872A7037E3004B7335 /* Inceptionv3.mlmodel */,
 				8A174E812A703749004B7335 /* Info.plist */,
 			);
 			path = SeeFood;
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A174E782A703747004B7335 /* ViewController.swift in Sources */,
+				8A174E882A7037E4004B7335 /* Inceptionv3.mlmodel in Sources */,
 				8A174E742A703747004B7335 /* AppDelegate.swift in Sources */,
 				8A174E762A703747004B7335 /* SceneDelegate.swift in Sources */,
 			);
